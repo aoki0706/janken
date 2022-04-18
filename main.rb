@@ -63,11 +63,13 @@ while true do
 
   if result == "win"
     if user_direction == cpu_direction
-      puts "あなたの勝ち\n"
+      puts "あなたの勝ちです"
+      break
     end
   elsif result == "lose"
     if user_direction == cpu_direction
-      puts "あなたの負け\n"
+      puts "あなたの負けです"
+      break
     end
   end
 end
